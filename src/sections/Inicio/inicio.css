@@ -25,22 +25,29 @@
   color: #7c8b68;
 }
 
+.line {
+  border: none;
+  height: 0.2px;
+  background-color: #333; /* Color de la línea */
+  margin: 5px 15px;
+}
+
 .inicio__title {
   margin: 0;
 
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(4rem, 10vw, 8rem);
+  font-size: clamp(4rem, 6vw, 5rem);
   font-weight: 500;
-  line-height: 0.9;
+  line-height: 1;
 
   color: #4f382d;
 }
 
 .inicio__description {
   max-width: 500px;
-  margin: 2rem auto;
+  margin: 1.5rem auto 2rem; 
 
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.7;
 
   color: #6e5a50;

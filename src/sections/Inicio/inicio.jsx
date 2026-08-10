@@ -1,17 +1,29 @@
+import "./inicio.css"
+import logoAmaru from '../../assets/images/amaru-logoSolo.jpeg';
+
 function Inicio() {
   return (
     <section className="inicio" id="inicio">
       <div className="inicio__content">
+
+        <img 
+          src={logoAmaru} 
+          alt="Logo Amaru" 
+          className="w-32 h-auto mx-auto mb-4" 
+        />
+
+        <link rel="icon" type="image/jpeg" href="/public/amaru-logo.jpeg" />
+        <h1 className="inicio__title">
+          AMARU DEL ALMA
+        </h1>
+        
         <p className="inicio__eyebrow">
-          Un espacio para volver a vos
+          Experiencias ♥︎ Rituales ♥︎ Constelaciones
         </p>
 
-        <h1 className="inicio__title">
-          Amaru
-        </h1>
-
         <p className="inicio__description">
-          Un espacio de encuentro, transformación y conexión.
+          Las respuestas siempre estuvieron en tu interior. <br />
+          Nosotros sólo te acompañamos a recordarlas.
         </p>
 
         <a href="#sobre-mi" className="inicio__button">

@@ -13,6 +13,7 @@ function Navbar() {
           <a href="#inicio">Inicio</a>
           <a href="#sobre-mi">Sobre mí</a>
           <a href="#experiencias">Experiencias</a>
+          <a href="#constelaciones">Constelaciones</a>
           <a href="#contacto">Contacto</a>
         </nav>
 
