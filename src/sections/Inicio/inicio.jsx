@@ -26,7 +26,7 @@ function Inicio() {
           Nosotros sólo te acompañamos a recordarlas.
         </p>
 
-        <a href="#sobre-mi" className="inicio__button">
+        <a href="#SobreMi" className="inicio__button">
           Conocé Amaru
         </a>
       </div>

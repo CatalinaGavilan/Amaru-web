@@ -1,0 +1,42 @@
+.SobreMi {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 120px 5% 80px;
+
+  background-color: #fbf7f2;
+}
+
+.title {
+  margin: 0;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(4rem, 6vw, 5rem);
+  font-weight: 500;
+  line-height: 1;
+
+  color: #4f382d;
+}
+
+
+.eyebrow {
+  margin-bottom: 1rem;
+
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #7c8b68;
+}
+
+.description {
+  max-width: 500px;
+  margin: 1.5rem auto 2rem; 
+
+  font-size: 1rem;
+  line-height: 1.7;
+
+  color: #6e5a50;
+}
