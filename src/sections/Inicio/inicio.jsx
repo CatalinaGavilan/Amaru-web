@@ -1,5 +1,5 @@
 import "./inicio.css"
-import logoAmaru from '../../assets/images/amaru-logoSolo.jpeg';
+import logoAmaru from '../../assets/images/LogoAmaru1.png';
 
 function Inicio() {
   return (

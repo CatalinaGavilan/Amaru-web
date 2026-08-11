@@ -1,5 +1,6 @@
 import "./navBar.css";
 
+
 function Navbar() {
   return (
     <header className="navbar">
@@ -12,8 +13,9 @@ function Navbar() {
         <nav className="navbar__links">
           <a href="#inicio">Inicio</a>
           <a href="#sobre-mi">Sobre mí</a>
-          <a href="#experiencias">Experiencias</a>
+          <a href="#Experiencias">Experiencias</a>
           <a href="#constelaciones">Constelaciones</a>
+          <a href="#productos">Productos</a>
           <a href="#contacto">Contacto</a>
         </nav>
 
