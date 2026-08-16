@@ -1,5 +1,5 @@
 import "./navBar.css";
-
+import logoAmaru from '../../assets/images/LogoAmaru1.png';
 
 function Navbar() {
   return (
@@ -7,13 +7,17 @@ function Navbar() {
       <div className="navbar__container">
 
         <a href="#inicio" className="navbar__logo">
-          Amaru
+          <img 
+            src={logoAmaru} 
+            alt="Logo Amaru" 
+            className="w-17 h-auto mx-auto mb-4" 
+          />
         </a>
 
         <nav className="navbar__links">
           <a href="#inicio">Inicio</a>
           <a href="#sobre-mi">Sobre mí</a>
-          <a href="#Experiencias">Experiencias</a>
+          <a href="#experiencias">Experiencias</a>
           <a href="#constelaciones">Constelaciones</a>
           <a href="#productos">Productos</a>
           <a href="#contacto">Contacto</a>
